@@ -25,6 +25,7 @@ Configurar en la terminal user and email:
 
 -Ir al icono souce code 
 -Dar click al boton <publish branch>
+                   o <sync Changes>
 -Esperar que suba el repositorio
 
 Luego verificar en el buscador de google
