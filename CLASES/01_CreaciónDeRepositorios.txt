@@ -1,0 +1,36 @@
+En la carpeta CLASES crear un archivo llamado => 
+            01_CreaciónDeRepositorios.txt
+
+17-02-2023
+
+-----Crear repositorio local------
+
+* Consiste en crear una carpeta en mi sistema de archivos
+* Abrir la carpeta desde VSC
+* Ir al icono del source code y dar click
+  en Inicialize repository
+
+----Cómo actualizar repositorio------
+
+Ir al icono source code y :
+* Click al icono + (stage area)
+* Click al boton commit (commit area) => 
+  No olvidar dejar un mensaje antes del commit
+
+-----¿Cómo enlazar a la nube?-------------
+
+Configurar en la terminal user and email:
+* git config --global user.name "juanito"
+* git config --global user.email "juanito@unal.edu.co"
+
+-Ir al icono souce code 
+-Dar click al boton <publish branch>
+-Esperar que suba el repositorio
+
+Luego verificar en el buscador de google
+
+
+
+
+
+
