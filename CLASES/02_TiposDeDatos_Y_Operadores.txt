@@ -26,7 +26,15 @@ Logicos:     True and True => True
              not True  ==> False 
 
 
-Comparativos: 
+Comparativos: "hola" == "hola "   =>   False
+              "hola" != "hola "   =>   True
+               3  >  5            =>   False
+               3  >= 3            =>   True
+              -10 <  0            =>   True
+              -10 <= 10           =>   False
+
+
+
 
 
 
