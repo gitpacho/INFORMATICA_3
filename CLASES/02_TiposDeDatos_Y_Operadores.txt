@@ -13,3 +13,22 @@ Diccionarios  {}   {"hola": "hello", "mundo": "world"}
 Conjuntos     {}   {"A", "B", "C", "D"}
 
 ------- OPERADORES --------
+
+Aritmeticos:  +, -, *
+              1/5  => 0.2    division
+              1//5 => 0      division entera
+              1%5  => 1      modulo de una division
+              2**3 => 8      Potencia
+              2**0.5 =>1.41  Raiz
+
+Logicos:     True and True => True
+             False or False => False 
+             not True  ==> False 
+
+
+Comparativos: 
+
+
+
+
+
