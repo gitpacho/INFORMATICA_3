@@ -1,0 +1,15 @@
+24-02-2023
+
+------ TIPOS DE DATOS -------
+
+Strings:     ""  '' "Hola mundo"  '123456'
+Enteros:     -99999999  0  10000000
+Flotantes:   100.09    -36.99    0.0
+Booleanos:   True False
+
+Listas:       []   [0, 1, 2]  ["uno", "dos", "tres"]
+Tuplas        ()   (0, 1, 1)  ("uno", "dos", "tres")
+Diccionarios  {}   {"hola": "hello", "mundo": "world"}
+Conjuntos     {}   {"A", "B", "C", "D"}
+
+------- OPERADORES --------
