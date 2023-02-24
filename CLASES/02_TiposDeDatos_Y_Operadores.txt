@@ -14,6 +14,10 @@ Conjuntos     {}   {"A", "B", "C", "D"}
 
 ------- OPERADORES --------
 
+Asignacion:   a = 3
+              b = "hola"
+              c = [1,2,3]
+
 Aritmeticos:  +, -, *
               1/5  => 0.2    division
               1//5 => 0      division entera
@@ -34,7 +38,8 @@ Comparativos: "hola" == "hola "   =>   False
               -10 <= 10           =>   False
 
 
-
+Pertenencia: 1 in [1,2,3]      => True
+             1 not in [1,2,3]  => False
 
 
 
