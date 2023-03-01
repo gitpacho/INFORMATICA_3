@@ -1,0 +1,15 @@
+01-Mar-2023
+
+
+--------------- BUILT-IN FUNCTIONS-----------------
+
+Funciones de entrada y salida:  input(), print()
+
+Funciones de ayuda:             dir(), help()
+
+Conversiones:                   int(), float(), str(), list(), tuple()
+                                set(), dict(), complex()...... entre tipos de datos
+
+                                hex(), oct(), bin(), int().... entre sistemas numericos
+
+
