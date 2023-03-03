@@ -17,6 +17,9 @@ ejemplos:
        diccionario.keys()  ==> Devuelve las claves
 
 
+------ Métodos de los strings ------------
+
+
 
 
 
