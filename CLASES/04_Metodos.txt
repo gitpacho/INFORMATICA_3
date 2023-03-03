@@ -26,11 +26,12 @@ operaciones:   count(subcadena),
                replace(old, new), 
                find(subcadena)
 
-verificacion:  
+verificacion:  isalpha(), isalnum()
+               isdigit(), isdecimal()
 
-indexing:
+indexing:      cadena[indice]
 
-slicing:
+slicing:       cadena[inicio:fin:salto]
 
 
 
