@@ -1,6 +1,10 @@
 #Métodos de las cadenas
-cadena = "hola"
-print(dir(cadena))
+print("--------------cadenas---------------")
+cadena = "hola mundo cruel"
+print("directorio", dir(cadena))
+print(cadena.upper())
+print(cadena.lower())
+print(cadena.center(50))
 
 #Métodos de las listas
 lista = [1,2,3,4]

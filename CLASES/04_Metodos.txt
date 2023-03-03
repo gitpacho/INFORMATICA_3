@@ -19,7 +19,18 @@ ejemplos:
 
 ------ Métodos de los strings ------------
 
+formateo:      capitalize(), upper(), lower()
+               title(), center(), strip()
 
+operaciones:   count(subcadena), 
+               replace(old, new), 
+               find(subcadena)
+
+verificacion:  
+
+indexing:
+
+slicing:
 
 
 
