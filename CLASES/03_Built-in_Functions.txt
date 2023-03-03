@@ -12,4 +12,13 @@ Conversiones:                   int(), float(), str(), list(), tuple()
 
                                 hex(), oct(), bin(), int().... entre sistemas numericos
 
+Secuencia (listas y tuplas)     range(), enumerate(), zip()
 
+Operaciones con secuencias:     len(), sum(), min(), max(), sorted(), map(), filter()
+
+                                round()
+
+
+
+## Averiguar como usar cada una de las bult-in functions mostradas
+   
