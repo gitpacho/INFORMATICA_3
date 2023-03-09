@@ -17,7 +17,7 @@ ejemplos:
        diccionario.keys()  ==> Devuelve las claves
 
 
------- Métodos de los strings ------------
+----------------- Métodos de los strings --------------------------------
 
 formateo:      capitalize(), upper(), lower()
                title(), center(), strip()
@@ -37,11 +37,21 @@ slicing:       cadena[inicio:fin:salto]
 
 
 
+08-marzo-2023
 
+------------------Métodos de las listas---------------------------------
 
+Operaciones:    append(value), insert(index, value)
+                remove(value), pop(index)  
+                count()
 
+Ordenado:       sort(), reverse()
 
+Almacenamiento: clear(), copy()
 
+Indexado:       [index]
+
+Slicing:        [init:end:step]
 
 
 
