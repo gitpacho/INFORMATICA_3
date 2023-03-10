@@ -54,4 +54,18 @@ Indexado:       [index]
 Slicing:        [init:end:step]
 
 
+10-marzo-2023
 
+
+------------ Métodos de los diccionarios------------
+
+{
+"hola": "hello",
+"mundo": "world",
+"profesor": "teacher"
+}
+
+extracción:     keys(), values(), get(<clave>)
+eliminar:       pop(<clave>)
+almacenamiento: clear(), copy()
+indexado:       diccionario[<clave>]
