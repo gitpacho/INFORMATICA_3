@@ -166,11 +166,50 @@ print("cada 35avo =>",  edades[int((len(edades)-1)/2)::35])
      
        a) Extraiga los keys y values del diccionario, almacenelos en las variables claves, valores, respectivamente
        b) Corrija en el diccionario las calificaciones de Marly (4.3), Angel (3.1) y Juanita (3.5)
-       c) Elimine a les estudiantes Josefina y Juan.
+       c) Elimine a los estudiantes Josefina y Juan.
        d) Cree una copia y llamela reprobados, elimine todos aquellos con calificación mayor o igual a 3
        e) Muestre en pantalla la mejor calificación, para ello utilice indexing
        f) Muestre en pantalla la peor calificación, para ello utilice indexing 
        g) Utilice indexing para agregar dos nuevos estudiantes: Marco(3.0) Alejandra(5.0)"""
+
+#a
+Calificaciones = {"Juan": 5.0, "David": 2.4, "Maria": 2.9, "Esteban": 2.2, "Daniela": 2.0, "Mario": 3.1, "Juanita": 2.1, "José": 3.0, "Sebastian": 2.3, "Cristian": 2.0, "Alberto": 3.9, "Angélica": 4.2, "Angel": 2.0, "Marly": 2.5, "Mariana": 4.5, "Josefina": 2.7}
+claves = Calificaciones.keys()
+valores= Calificaciones.values()
+
+#b
+Calificaciones["Marly"] = 4.3
+Calificaciones["Angel"] = 3.1
+Calificaciones["Juanita"] = 3.5
+
+#c
+Calificaciones.pop("Josefina")
+Calificaciones.pop("Juan")
+
+#d
+reprobados = Calificaciones.copy()
+for key, value in Calificaciones.items():
+       if value >=3:
+             reprobados.pop(key)
+print("reprobados ==>", reprobados)      
+
+#e
+mejorNota = 0
+keyMejorNota = ""
+
+for key in Calificaciones.keys():
+   if Calificaciones[key] > mejorNota:
+      mejorNota = Calificaciones[key]
+      keyMejorNota = key
+
+print("mejor calificacion =>", Calificaciones[keyMejorNota])
+
+#f es análogo al anterior
+
+#g)
+
+Calificaciones["Marco"] = 3.0
+Calificaciones["Alejandra"] = 5.0
 
 
 #==> EJERCICIO 2
