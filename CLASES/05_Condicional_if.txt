@@ -1,0 +1,31 @@
+15-Mar-2023
+
+------------Condicional If------------------
+
+Es una de las instrucciones basicas de cualquier 
+lenguaje de alto nivel
+
+Permite ejecutar sentencias si la condicion es verdadera.
+En caso de ser falsa, se ejecutan otras sentencias en 
+la instruccion else.
+
+sintaxis =>
+------------------
+if <condicion>:
+    <sentencias>
+else: 
+    <sentencias>
+------------------
+if <condicion>:
+    <sentencias>
+elif <condicion>:
+    <sentencias>
+else: 
+    <sentencias>
+------------------
+
+
+
+
+
+

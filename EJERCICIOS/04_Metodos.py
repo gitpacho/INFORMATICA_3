@@ -291,8 +291,7 @@ promedioSalarioEnsambladores = totalSalariosEnsambladores / len(indicesEnsamblad
 print("promedio Programadores =>", promedioSalarioProgramadores)
 print("promedio Ensambladores =>", promedioSalarioEnsambladores)       
 
-      
-      
+     
 
 
 
