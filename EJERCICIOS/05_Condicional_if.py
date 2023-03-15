@@ -1,3 +1,5 @@
+#------ Ejercicio condicional if ----------------
+
 """ Seis compañeros, contratan un taxi con el objeto de movilizarse juntos a la universidad. 
 El contrato es de lunes a viernes, y deben pagar al taxista $15000 por cada trayecto. 
 Se prestarán dos servicios al día, uno de ida y el otro de regreso.
