@@ -237,4 +237,65 @@ A partir de la base de datos, busque una manera de:
     e) Calcular el promedio de lo que ganan los ensambladores"""
 
 
+empleadosMabe = {
+   "codigos" : ["0001","0002","0003","0004","0005","0006","0007","0008","0009","0010","0011","0012","0013"],
+   "nombres" : ["Cristian Pachon","Daniela Pineda","Esteban Murcia","Jose Guzman","Camilo Rodriguez","Mariana Londoño","Estefania Muños","Cristian Rodriguez","Natalia Alzate","Juan Sanabria","Juanita Calderon","Laura Quintero","Viviana Quesada"],
+   "cargos"  : ["Ingeniero","Programador","Programador","Ingeniero","Ensamblador","Ensamblador","Ensamblador","Ingeniero","Ensamblador","Diseñador","Ensamblador","Administrador","Guardia"],
+   "salarios": [3200000,4300000,4600000,3900000,1200000,1100000,1700000,3100000,2200000,5100000,1300000,2500000,1500000]
+}
+
+
+#a
+mayorSalario = 0
+indiceMayorSalario = 0
+contador = 0
+
+for salario in empleadosMabe["salarios"]:
+   if salario > mayorSalario:
+      mayorSalario = salario
+      indiceMayorSalario = contador
+   contador += 1
+
+print("mayor salario =>", empleadosMabe["nombres"][indiceMayorSalario])
+       
+       
+#b es analogo
+
+#c 
+print("Gasto total salarios =>", sum(empleadosMabe["salarios"]))
+
+#d y e
+indicesProgramadores = []
+indicesEnsambladores = []
+indice = 0   # indice es el indice de la lista cargos
+
+for cargo in empleadosMabe["cargos"]:
+   if cargo == "Programador":
+      indicesProgramadores.append(indice)
+   if cargo == "Ensamblador":
+      indicesEnsambladores.append(indice)
+   indice += 1
+
+totalSalariosEnsambladores = 0
+totalSalariosProgramadores = 0
+
+for indice in indicesEnsambladores:
+   totalSalariosEnsambladores += empleadosMabe["salarios"][indice]
+
+for indice in indicesProgramadores:
+       totalSalariosProgramadores += empleadosMabe["salarios"][indice]
+
+promedioSalarioProgramadores = totalSalariosProgramadores / len(indicesProgramadores)
+promedioSalarioEnsambladores = totalSalariosEnsambladores / len(indicesEnsambladores)
+
+print("promedio Programadores =>", promedioSalarioProgramadores)
+print("promedio Ensambladores =>", promedioSalarioEnsambladores)       
+
+      
+      
+
+
+
+
+
 
