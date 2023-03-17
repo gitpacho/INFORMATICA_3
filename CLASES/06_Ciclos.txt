@@ -1,0 +1,57 @@
+17-Marzo-2023
+
+---------------CICLO WHILE-------------------
+
+Permite repetir un conjunto de operaciones de manera 
+indeterminada. Es decir, el ciclo se detiene unicamente
+en caso de que una condición se haga falsa.
+
+SINTAXIS:
+
+while <condicion>:
+    <sentencias>
+------------------------------------------
+Ejemplo1: Ejecutar un ciclo while infinito
+          cada vez que se repita el ciclo imprimir
+          un mensaje informando la repetición
+
+condicion = True
+while condicion:
+    print("Se ha repetido el ciclo")
+
+#nota: Siempre evitar ciclos infinitos
+-------------------------------------------
+Ejemplo2: crear una cadena de texto arbitraria
+          imprima caracter a caracter usando un ciclo while
+          interrumpa la ejecucion si encuentra una vocal con tilde
+
+texto = "habia una vez una í arbitraria"
+cont = 0
+limite = len(texto)
+
+while cont < limite:
+    print(texto[cont], end="--")
+    if texto[cont] in "áéíóúÁÉÍÓÚ":
+        break
+    cont += 1
+
+-----------------------------------------------------------------
+----------------------CICLO FOR----------------------------------
+
+Cuando se conoce el numero de iteraciones o la secuencia que debe
+recorrerse, acudimos al ciclo for
+
+SINTAXIS
+
+for <iterador> in <iterable>:
+    <sentencias>
+
+Ejemplo1: 
+    Recorrer los siguientes iterables
+    * [10,20,30,40,50]
+    * range(10)
+    * "hola mundo cruel"
+    * ("uno", "dos", "3")
+
+
+
