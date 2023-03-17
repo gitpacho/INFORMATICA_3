@@ -1,0 +1,35 @@
+-------------------------------------------------------------------------------
+# INFORME1:  Debe contener la relatoria del curso y la solucion de ejercicios
+
+    1) Relatoria. 
+    
+        El nombre del archivo es:
+        relatoria1.pdf
+        
+        Nota: Sin espacios ni tildes
+
+    2) Ejercicios. 
+        
+        El nombre del archivo es:
+        ejercicios1.py
+
+        Nota: Sin espacios ni tildes
+        
+-----------------------------------------------------------------------------------
+¿Donde entregarlo? => En el repositorio en la nube.
+
+    En la subcarpeta INFORMES/INFORME1
+    Almacenar los archivos relatoria1.pdf y ejercicios1.py en esa ubicacion
+
+-----------------------------------------------------------------------------------
+¿Para cuando?
+
+Disponibilidad:     desde el Viernes, 24 de Marzo 6:00 pm
+Fecha de entrega:   hasta el Domingo,  26 de Marzo 6:00 p.m
+                    (relatoria y ejercicios)
+
+
+    
+
+
+    
