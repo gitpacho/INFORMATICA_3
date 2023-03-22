@@ -28,6 +28,27 @@ Rendimiento --    "C"       "B"      "B"        "B"        "C"      "B"      "A"
 Donde "A" es alto, "B" aceptable  y "C"  insuficiente. 
 Determine ¿cuales empleados pueden solicitar un aumento salarial y cuáles pueden ser despedidos? """
 
+
+empleados = ["Emplea_1",  "Emplea_2",  "Emplea_3",  "Emplea_4",  "Emplea_5",  "Emplea_6",  "Emplea_7",  "Emplea_8",  "Emplea_9",  "Emplea_10",  "Emplea_11",  "Emplea_12",  "Emplea_13",  "Emplea_14",  "Emplea_15",  "Emplea_16",  "Emplea_17",  "Emplea_18",  "Emplea_19",  "Emplea_20",  "Emplea_21",  "Emplea_22",  "Emplea_23",  "Emplea_24",  "Emplea_25",  "Emplea_26",  "Emplea_27"]
+rendimiento =  ["C" ,"B","B",  "B",  "C","B","A",  "C", "B",  "A",  "C", "B",  "B",  "B",   "B",  "A", "B",  "A",   "A",  "C", "B",  "B",  "B",   "B",   "C", "A", "C" ]
+
+indices = range(0, len(empleados))
+
+posibleAumentoSalarial = []
+posibleDespedido = []
+
+for indice in indices:
+      if rendimiento[indice] == "A":
+            empleado = empleados[indice]
+            posibleAumentoSalarial.append(empleado)
+      elif rendimiento[indice] == "C":
+            empleado = empleados[indice]
+            posibleDespedido.append(empleado)
+  
+print("Aumento salarial: ", posibleAumentoSalarial)
+print("Despidos: ", posibleDespedido)
+
+
   #==> EJERCICIO 3 
 """ El rendimiento deportivo de un grupo de atletas es el siguiente:
 -------------- Deportista_1  Deportista_2  Deportista_3  Deportista_4  Deportista_5  Deportista_6  Deportista_7  Deportista_8  Deportista_9  Deportista_10  Deportista_11  Deportista_12  Deportista_13  Deportista_14  Deportista_15  Deportista_16  Deportista_17  Deportista_18  Deportista_19  Deportista_20  Deportista_21  Deportista_22  Deportista_23  Deportista_24  Deportista_25  Deportista_26  Deportista_27 
