@@ -28,7 +28,7 @@ Rendimiento --    "C"       "B"      "B"        "B"        "C"      "B"      "A"
 Donde "A" es alto, "B" aceptable  y "C"  insuficiente. 
 Determine ¿cuales empleados pueden solicitar un aumento salarial y cuáles pueden ser despedidos? """
 
-#==> EJERCICIO 3 
+  #==> EJERCICIO 3 
 """ El rendimiento deportivo de un grupo de atletas es el siguiente:
 -------------- Deportista_1  Deportista_2  Deportista_3  Deportista_4  Deportista_5  Deportista_6  Deportista_7  Deportista_8  Deportista_9  Deportista_10  Deportista_11  Deportista_12  Deportista_13  Deportista_14  Deportista_15  Deportista_16  Deportista_17  Deportista_18  Deportista_19  Deportista_20  Deportista_21  Deportista_22  Deportista_23  Deportista_24  Deportista_25  Deportista_26  Deportista_27 
 Rendimiento --    "A"           "B"           "C"            "B"            "B"           "B"          "C"           "B"             "A"           "C"          "B"          "A"             "C"             "B"          "B"              "B"           "B"             "A"           "B"            "A"           "A"             "C"             "B"             "B"          "B"            "B"            "C"             

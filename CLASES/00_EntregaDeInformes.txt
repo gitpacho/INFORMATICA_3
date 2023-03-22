@@ -11,7 +11,7 @@
     2) Ejercicios. 
         
         El nombre del archivo es:
-        ejercicios1.py
+        ejercicios1.py  
 
         Nota: Sin espacios ni tildes
         
