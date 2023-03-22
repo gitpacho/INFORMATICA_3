@@ -1,0 +1,26 @@
+22-Marzo-2023
+
+--------------------Funciones-------------------
+
+Son una solución al paradigma de programación funcional
+Se crean para evitar la repetición de codigo.
+
+
+-------------------------------------------------------------------------
+SINTAXIS =>
+def <nombre_de_la_funcion_>(<parametros>):
+    <sentencias>
+    return <elemento_a_retornar>
+--------------------------------------------------------------------------
+
+EJEMPLO =>  Crear una función que determine si un numero es par:
+
+def esUnNumeroPar(numero):          # Esto es crear o definir una funcion
+    esPar = (numero % 2 == 0)
+    return esPar
+
+print(esUnNumeroPar(9))             # Esto es ejecutar o llamar la función
+print(esUnNumeroPar(0))             # Esto es ejecutar o llamar la función
+print(esUnNumeroPar(1))             # Esto es ejecutar o llamar la función
+print(esUnNumeroPar(2))             # Esto es ejecutar o llamar la función
+
