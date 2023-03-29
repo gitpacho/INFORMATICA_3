@@ -32,7 +32,7 @@ Crear una serie con informacion del rendimiento de los empleados en una empresa 
 Rendimiento --    "C"       "B"      "B"        "B"        "C"      "B"      "A"        "C"       "B"        "A"        "C"       "B"        "B"        "B"         "B"        "A"       "B"        "A"         "A"        "C"       "B"        "B"        "B"         "B"         "C"       "A"       "C"   
 A=>3
 B=>2
-C=>3
+C=>1
 """
 
 import pandas
