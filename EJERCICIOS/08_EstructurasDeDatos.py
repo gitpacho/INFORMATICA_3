@@ -13,6 +13,15 @@ ESTEBAN       Si        No        No      Si      Si
 ANGIE         Si        No        Si      No      No        
 """
 
+import numpy 
+data = [[1,1,1,1,0],
+        [1,0,1,0,1],
+        [1,0,1,1,0],
+        [1,1,1,0,0],
+        [1,0,0,1,1],
+        [1,0,1,0,0]]
+usoDeTaxi = numpy.array(data)
+print(usoDeTaxi, usoDeTaxi.dtype)
 
 #Ejercicio 2 ===============>
 
@@ -20,12 +29,24 @@ ANGIE         Si        No        Si      No      No
 Crear una serie con informacion del rendimiento de los empleados en una empresa =>
 
 --------------  Emplea_1  Emplea_2  Emplea_3  Emplea_4  Emplea_5  Emplea_6  Emplea_7  Emplea_8  Emplea_9  Emplea_10  Emplea_11  Emplea_12  Emplea_13  Emplea_14  Emplea_15  Emplea_16  Emplea_17  Emplea_18  Emplea_19  Emplea_20  Emplea_21  Emplea_22  Emplea_23  Emplea_24  Emplea_25  Emplea_26  Emplea_27 
-Rendimiento --    "C"       "B"      "B"        "B"        "C"      "B"      "A"        "C"       "B"        "A"        "C"       "B"        "B"        "B"         "B"        "A"       "B"        "A"         "A"        "C"       "B"        "B"        "B"         "B"         "C"       "A"       "C"   """
+Rendimiento --    "C"       "B"      "B"        "B"        "C"      "B"      "A"        "C"       "B"        "A"        "C"       "B"        "B"        "B"         "B"        "A"       "B"        "A"         "A"        "C"       "B"        "B"        "B"         "B"         "C"       "A"       "C"   
+A=>3
+B=>2
+C=>3
+"""
+
+import pandas
+indices = ["Emplea_1",  "Emplea_2",  "Emplea_3",  "Emplea_4",  "Emplea_5",  "Emplea_6",  "Emplea_7",  "Emplea_8",  "Emplea_9",  "Emplea_10",  "Emplea_11",  "Emplea_12",  "Emplea_13",  "Emplea_14",  "Emplea_15",  "Emplea_16",  "Emplea_17",  "Emplea_18",  "Emplea_19",  "Emplea_20",  "Emplea_21",  "Emplea_22",  "Emplea_23",  "Emplea_24",  "Emplea_25",  "Emplea_26",  "Emplea_27", ]
+datos = [1,  2, 2,   2,   1, 2, 3,   1,  2,   3,   1,  2,   2,   2,    2,   3,  2,   3,    3,   1,  2,   2,   2,    2,    1,  3,  1]
+
+rendimiento = pandas.Series(index= indices, data=datos)
+print(rendimiento)
+
 
 
 #Ejercicio 3 ===============>
 """
-Crear un data frame con los empleados de una empresa:
+Crear un data frame con los "empleados", de una empresa:
 
 Cod   Nombre               Cargo          Salario   
 0001   Cristian Pachon     Ingeniero      $ 3.200.000
@@ -42,3 +63,15 @@ Cod   Nombre               Cargo          Salario
 0012   Laura Quintero      Administrador  $ 2.500.000
 0013   Viviana Quesada     Guardia        $ 1.500.000
 """
+
+
+
+
+
+
+
+
+
+
+
+
