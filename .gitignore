@@ -1,2 +1,6 @@
-INFORMATICA_3/INFORMES/INFORME1/respuestasCorrectas.py
-INFORMATICA_3/INFORMES/INFORME1/calificar.py
+INFORMES/*/calificar.py
+INFORMES/*/calificarTodos.py
+INFORMES/*/notas.json
+INFORMES/*/PDFS
+INFORMES/*/__pycache__
+TEMPORAL/
