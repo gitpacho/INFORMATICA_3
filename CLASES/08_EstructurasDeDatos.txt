@@ -1,0 +1,49 @@
+29-Marzo-2023
+
+----------Estructuras para análisis de datos----------------
+
+Para analizar datos veremos 3 estructuras:
+
+* Arreglos numpy
+* Series pandas
+* Dataframes pandas
+
+----------Constructores de las estructuras de datos---------
+import numpy
+import pandas
+
+arreglos =>  1D   numpy.array([1,2,3,4])
+                  numpy.array(range(10))
+                  numpy.array("hola hola")
+
+         =>  2D   numpy.array([[1,2,3,4],
+                               [5,6,7,8],
+                               [9,0,1,2]])
+
+         =>  3D   numpy.array([[[1,2],
+                                [3,4]],
+                               [[5,6],
+                                [7,8]]])
+------------------------------------------------------------------
+series     =>  1D   pandas.Series(data = [10,9,8,5,3,4,5,2,3,1,2],
+                               index = ["Ene", "Feb", "Mar","Abr","May","Jun","Jul","Ago","Sept","Oct","Nov", "Dic"]
+                               )
+
+
+dataFrames => 2D    pandas.Dataframe(data=[[3.5, 2, 3.5],
+                                           [4, 2.9, 4.5],
+                                           [5, 2.5, 3.6],
+                                           [1, 2.2, 3.3],
+                                           [3, 3.9, 3.8]],
+                                     index = ["Cristian", "Camila", "Esteban", "Jose", "Maria"],
+                                     columns = ["Nota1", "Nota2", "Nota3"]                                    
+                                     )
+----------------------------------------------------------------------
+
+
+
+
+
+
+
+
