@@ -87,9 +87,9 @@ dataFrameEmpresa = pandas.DataFrame(index=indices,
                                     columns=columnas,
                                     data=datos
                                     )
-print(dataFrameEmpresa["Salario"])
+print(dataFrameEmpresa)
 
-#Revisar qué atributos y metodos  tienen los arreglos, series y los dataFrames
+#Revisar qué atributos y metodos  tienen los arreglos, series y los dataFrames, cómo usarlos?
 
 print(dir(dataFrameEmpresa))
 
