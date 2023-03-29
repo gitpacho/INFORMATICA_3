@@ -87,9 +87,11 @@ dataFrameEmpresa = pandas.DataFrame(index=indices,
                                     columns=columnas,
                                     data=datos
                                     )
-print(dataFrameEmpresa["Salario"].mean())
+print(dataFrameEmpresa["Salario"])
 
 #Revisar qué atributos y metodos  tienen los arreglos, series y los dataFrames
+
+print(dir(dataFrameEmpresa))
 
 
 
