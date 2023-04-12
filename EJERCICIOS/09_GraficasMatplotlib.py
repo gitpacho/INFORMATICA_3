@@ -79,6 +79,32 @@ Edad ---------     42            60            18             20             35 
 """
 
 
+"""
+Realizar 4 dispersiones en una misma figura
+|--------------|---------------|
+|  dispersion1 | dispersion2   |
+|--------------|---------------|
+|  dispersion3 | dispersion4   |
+|--------------|---------------|
+
+dispersion1
+x1 = np.linspace(2, 15)
+y1 = np.random.random(50) 
+
+dispersion2
+x2 = np.linspace(2, 15)
+y2 = x2** 0.5 + 0.1 * np.random.random(len(x2))
+
+dispersion3
+x3 = np.linspace(0, 10)
+y3 = np.sin(x3) + 0.05 * np.random.random(len(x3))
+
+dispersion4
+x4 = np.linspace(-3, 3)
+y4 = np.random.normal(len(x4))
+"""
+
+
 
 
 
