@@ -69,7 +69,7 @@ plt.savefig("figura3.png")
 
 
 
-#Ejercicios ===>  
+#Ejercicio1 ===>  
 
 """
 Realizar un diagrama de barras del rendimiento vs edad
@@ -78,7 +78,7 @@ Rendimiento --    "A"           "B"           "C"            "B"            "B" 
 Edad ---------     42            60            18             20             35            25           60            30              19            42           21           17              39              30           28               34            27              23            23             20            25             "40"             31             32            45             26             17             
 """
 
-
+#Ejercicio2 ===>  
 """
 Realizar 4 dispersiones en una misma figura
 |--------------|---------------|
@@ -105,6 +105,12 @@ y4 = np.random.normal(len(x4))
 """
 
 
+#Ejercicio3 ===>  
+"""
+Dibujar el histograma de la siguiente data
+
+data = np.random.normal(center = )
+"""
 
 
 
