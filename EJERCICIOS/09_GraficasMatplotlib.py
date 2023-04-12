@@ -108,8 +108,7 @@ y4 = np.random.normal(len(x4))
 #Ejercicio3 ===>  
 """
 Dibujar el histograma de la siguiente data
-
-data = np.random.normal(center = )
+data = np.random.normal(loc=2, scale=2.0, size=1000)
 """
 
 
