@@ -92,8 +92,3 @@ print(dataFrameEmpresa)
 #Revisar qué atributos y metodos  tienen los arreglos, series y los dataFrames, cómo usarlos?
 
 print(dir(dataFrameEmpresa))
-
-
-
-
-

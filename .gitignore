@@ -3,6 +3,8 @@ INFORMES/*/notas.json
 INFORMES/*/PDFS
 INFORMES/*/respuestasCorrectas.py
 INFORMES/*/variablesDeEntorno.py
+INFORMES/*/
 
 INFORMES/*/__pycache__
 TEMPORAL/
+.gitignore

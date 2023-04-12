@@ -40,10 +40,6 @@ dataFrames => 2D    pandas.Dataframe(data=[[3.5, 2, 3.5],
                                      )
 ----------------------------------------------------------------------
 
+TUTORIAL PANDAS =>
 
-
-
-
-
-
-
+https://interactivechaos.com/es/manual/tutorial-de-pandas/tutorial-de-pandas
