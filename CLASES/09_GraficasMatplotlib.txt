@@ -1,0 +1,40 @@
+12-Abril-2023
+
+----------GRAFICAS MATPLOTLIB-----------
+
+* dispersion de puntos
+* histogramas
+* diagrama de barras
+* pastel
+* boxplot
+
+import plotly as pl
+import matplotlib.pytplot as plt
+
+#Dispersion de puntos =>
+plt.figure()
+plt.plot(<xdata>, <ydata>, <style>)
+plt.show()
+
+#Histograma
+plt.figure()
+plt.hist(<data>, bins = 10, density=True)
+plt.show()
+
+#Diagrama de barras
+plt.figure()
+plt.bar(<clases>, <frecuencias>)
+plt.show()
+
+#Pastel
+plt.figure()
+plt.pie(<frecuencias>, <clases>)
+plt.show()
+
+#boxplot
+plt.figure()
+plt.boxplot(<data>) #cuantitativa
+plt.show()
+
+
+
