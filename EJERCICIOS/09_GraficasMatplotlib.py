@@ -38,7 +38,7 @@ plt.xlabel(r"$Años$")
 plt.ylabel(r"$Salario$")
 plt.grid()
 plt.legend()
-plt.savefig("figura1.png")
+plt.savefig("EJERCICIOS/figura1.png")
 #plt.show()
 
 
@@ -49,7 +49,7 @@ plt.title(r"$Histograma\ Salarios$")
 plt.xlabel(r"$Salario\ [millones]$")
 plt.ylabel(r"$Frecuencia\ [unidades]$")
 plt.grid()
-plt.savefig("figura2.png")
+plt.savefig("EJERCICIOS/figura2.png")
 #plt.show()
 
 
@@ -63,7 +63,7 @@ plt.title(r"$Diagrama\ De\ Barras$")
 plt.xlabel("Cargos")
 plt.ylabel("Salario promedio")
 plt.xticks(rotation='vertical')
-plt.savefig("figura3.png")
+plt.savefig("EJERCICIOS/figura3.png")
 #plt.show()
 
 
