@@ -1,3 +1,5 @@
+#================Ejercicios clase====================
+
 columnas = ["Nombre","Cargo","Salario", "Años_experiencia"]
 indices = ["0001","0002","0003","0004","0005","0006","0007","0008","0009","0010","0011","0012","0013"]
 datos =  [["Cristian Pachon"     ,"Ingeniero"      ,3200000, 8],
@@ -52,7 +54,6 @@ plt.grid()
 plt.savefig("EJERCICIOS/figura2.png")
 #plt.show()
 
-
 extraccion = dataFrameEmpresa[["Cargo", "Salario"]].groupby(["Cargo"]).mean()
 cargos = extraccion.index
 promedios = extraccion["Salario"]
@@ -67,10 +68,9 @@ plt.savefig("EJERCICIOS/figura3.png")
 #plt.show()
 
 
-
+#================Ejercicios pendientes====================
 
 #Ejercicio1 ===>  
-
 """
 Realizar un diagrama de barras del rendimiento vs edad
 -------------- Deportista_1  Deportista_2  Deportista_3  Deportista_4  Deportista_5  Deportista_6  Deportista_7  Deportista_8  Deportista_9  Deportista_10  Deportista_11  Deportista_12  Deportista_13  Deportista_14  Deportista_15  Deportista_16  Deportista_17  Deportista_18  Deportista_19  Deportista_20  Deportista_21  Deportista_22  Deportista_23  Deportista_24  Deportista_25  Deportista_26  Deportista_27 
@@ -104,12 +104,8 @@ x4 = np.linspace(-3, 3)
 y4 = np.random.normal(size = len(x4))
 """
 
-
 #Ejercicio3 ===>  
 """
 Dibujar el histograma de la siguiente data
 data = np.random.normal(loc=2, scale=2.0, size=1000)
 """
-
-
-
