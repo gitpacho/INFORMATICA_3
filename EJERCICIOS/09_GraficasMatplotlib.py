@@ -14,8 +14,7 @@ datos =  [["Cristian Pachon"     ,"Ingeniero"      ,3200000],
           ["Laura Quintero"      ,"Administrador"  ,2500000],
           ["Viviana Quesada"     ,"Guardia"        ,1500000]]
 
-
-
+import pandas
 dataFrameEmpresa = pandas.DataFrame(index=indices,
                                     columns=columnas,
                                     data=datos
