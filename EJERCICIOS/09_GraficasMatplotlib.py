@@ -101,7 +101,7 @@ y3 = np.sin(x3) + 0.05 * np.random.random(len(x3))
 
 dispersion4
 x4 = np.linspace(-3, 3)
-y4 = np.random.normal(len(x4))
+y4 = np.random.normal(size = len(x4))
 """
 
 
