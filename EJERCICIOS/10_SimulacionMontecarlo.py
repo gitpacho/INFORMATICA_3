@@ -7,7 +7,7 @@ import itertools
 #J es la constante de intercambio.
 #kB es la constante de Boltzmann.
 
-length = 10
+length = 5
 J = 1.0
 kB = 1.0
 
@@ -118,7 +118,7 @@ def monte_carlo_step(T):
 
 #==========SIMULACION======================>
 
-amount_mcs = 10000  #Pasos montecarlo
+amount_mcs = 100  #Pasos montecarlo
 T_high = 5.0
 T_low = 0.01
 step = -0.1
@@ -134,13 +134,32 @@ for ind_T, T in enumerate(temps):
         energies[ind_T, i] = total_energy()
         magnetizations[ind_T, i] = magnetization()
 
-
 # Revisar la simulacion 
 # Dibujar el sistema final
 # Graficar la energía y la magnetizacion en funcion de 
 # la temperatura
 
 
+plot_spins()
+tau = amount_mcs // 2
+energy_mean = numpy.mean(energies[:, tau:], axis=1)
+magnetization_mean = abs(numpy.mean(magnetizations[:, tau:], axis=1))
+
+pyplot.figure(figsize=(12,3))
+pyplot.subplot(1,2,1)
+pyplot.plot(temps, energy_mean, label="Energy")
+pyplot.legend()
+pyplot.xlabel(r"$T$")
+pyplot.ylabel(r"$\left<E\right>$")
+pyplot.grid()
+
+pyplot.subplot(1,2,2)
+pyplot.plot(temps, magnetization_mean, label="Magnetization")
+pyplot.legend()
+pyplot.xlabel(r"$T$")
+pyplot.ylabel(r"$\left<M\right>$")
+pyplot.grid()
+pyplot.savefig("EJERCICIOS/simulacion.png")
 
 
 
