@@ -31,7 +31,7 @@ import matplotlib.pyplot as plt
 plt.figure()
 plt.plot(lamb, I_AM15)
 plt.xlabel("Longitud de onda")
-plt.ylabel("Energia solar")
+plt.ylabel("radiacion solar")
 plt.grid()
 plt.show()
 
