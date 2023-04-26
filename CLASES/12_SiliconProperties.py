@@ -1,10 +1,11 @@
+import numpy as np
+
 Ref        =  0
 Trans      =  1
-
-w_IGN      =  10 * 10 ** -5
+#w_IGN      =  10 * 10 ** -5
 w_Si       =  100 * 10 ** -5
 Eg_Si_p    =  1.12,
-chi_Si_p   =  4.05,
+chi_Si_p   =  4.05,  
 Perm_Si_p  =  11.7,
 Nc_Si_p    =  2.8084567603096764e+19,
 Nv_Si_p    =  1.8275252657588916e+19,
